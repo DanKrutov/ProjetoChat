@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>Chat Teste</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+		<link rel="shortcut icon" href="img/msgico.png">
+	</head>
+	
+	<body style="background-color: grey;">
+		<h1><i>CHAT TESTE V0.1</i></h1>
+
+		<main>
+			<div id="caixachat">
+				<div class="containermsg">
+					<div class="msgdir">
+						teste de mensagem a direita 
+					</div>
+				</div>
+				<div class="containermsg">
+					<div class="msgesq">
+						teste de mensagem a esquerda
+					</div>
+				</div>
+				
+			</div>
+			<div id="caixatxt">
+				<div id="containertexto">
+					<textarea id="msgtxt"></textarea>
+				</div>
+				<div id="containerinput">
+						<img class="ico" style="cursor: pointer;" onclick="enviarmsg();" src="img/send.png">
+						<img class="ico" style="cursor: pointer;" src="img/emoji.png">
+				</div>
+			</div>
+		</main>
+
+		<script type="text/javascript" src="script/jquery-3.6.1.js"></script>
+		<script type="text/javascript" src="script/chat.js"></script>
+	</body>
+</html>
